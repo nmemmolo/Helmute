@@ -1,0 +1,657 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35ee2b6a-12f6-4ad6-939d-22dc251f11ba")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Helmute:SPH0645"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.524 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "I2S MEMS Mic SPH0645"
+				(at -0.508 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPH0645_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "LRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "Outside (reference) mics, select tied to 3V3"
+		(exclude_from_sim no)
+		(at 195.834 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ab5c82d-a7ec-4ed1-bdfb-6ae93b699a85")
+	)
+	(symbol
+		(lib_id "Helmute:SPH0645")
+		(at 167.64 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f44028-9f6f-42af-928f-56e2fce657ea")
+		(property "Reference" "U10"
+			(at 173.99 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2S MEMS Mic SPH0645"
+			(at 173.99 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcf92831-56d9-458b-a173-95041dc778ba")
+		)
+		(pin "5"
+			(uuid "a496d8b6-219a-48cd-8ed6-8d37eb370f9f")
+		)
+		(pin "4"
+			(uuid "553f1baf-862c-430f-b661-f61c6d4573c4")
+		)
+		(pin "3"
+			(uuid "fbeffa50-098f-4709-ab7a-fbce4779e551")
+		)
+		(pin "6"
+			(uuid "8c5dc16c-c347-4ce0-9937-6194b8263bda")
+		)
+		(pin "1"
+			(uuid "d8b3c661-9014-4b07-b604-c2fc81cbd09f")
+		)
+		(instances
+			(project "Helmute_PCBs"
+				(path "/35ee2b6a-12f6-4ad6-939d-22dc251f11ba"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.175 80.645)
+		(size 17.145 26.035)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b9cfacf-2554-48ba-84f8-3ad8c0a7d22d")
+		(property "Sheetname" "LeftSpeakerAndMic"
+			(at 130.175 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speakermic.kicad_sch"
+			(at 130.175 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Helmute_PCBs"
+				(path "/35ee2b6a-12f6-4ad6-939d-22dc251f11ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 64.77)
+		(size 52.07 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5601e7ad-99a1-4f0b-813c-5f8ee84413cc")
+		(property "Sheetname" "Processor"
+			(at 62.23 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor.kicad_sch"
+			(at 62.23 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND" output
+			(at 69.85 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c82019f-b567-478c-9233-f975e5266997")
+		)
+		(pin "5V" output
+			(at 72.39 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c1c39da-4550-4048-9a73-2c2d2c50d09c")
+		)
+		(pin "3V3" output
+			(at 74.93 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f86a14b-4548-4331-898b-baaa1963dc02")
+		)
+		(pin "LRCLK" output
+			(at 81.28 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d99fbdb-01fc-4f91-b278-9c418e544e1d")
+		)
+		(pin "BCLK" output
+			(at 83.82 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e3eca42-f50d-4e5b-be4f-cd988f462cfe")
+		)
+		(pin "MCLK" output
+			(at 86.36 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ad6a4ce-b8a1-4d15-8755-3c8280547989")
+		)
+		(pin "SCL" output
+			(at 88.9 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "688d56ea-2ac6-4022-a5b5-9dc48fbbf4ae")
+		)
+		(pin "SDA" bidirectional
+			(at 91.44 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a6ff231-49ef-4bea-8dde-5a083ea97dfc")
+		)
+		(pin "I2S_IN_L" input
+			(at 99.06 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5ad214b-49a1-4adc-bdc3-7ca4a02b4228")
+		)
+		(pin "I2S_IN_R" input
+			(at 101.6 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5098784a-f3fb-47c3-a664-3bade892c72b")
+		)
+		(pin "I2S_OUT" output
+			(at 104.14 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4df0b818-c7c6-442b-b992-00d2baac1696")
+		)
+		(instances
+			(project "Helmute_PCBs"
+				(path "/35ee2b6a-12f6-4ad6-939d-22dc251f11ba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 90.805)
+		(size 52.705 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6484864c-2f75-4d2d-bf06-08853402efed")
+		(property "Sheetname" "Cradle"
+			(at 62.23 90.0934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cradle.kicad_sch"
+			(at 62.23 129.4896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LRCLK" input
+			(at 81.28 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19840049-7a50-4e2e-ab69-530ad805e963")
+		)
+		(pin "MCLK" input
+			(at 86.36 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6a50596-8af2-4192-8322-68652770352c")
+		)
+		(pin "BCLK" input
+			(at 83.82 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4bcf495-4695-4cc4-b37f-22bb11bb5959")
+		)
+		(pin "I2S_OUT" input
+			(at 104.14 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7223fc3-c565-40f3-b633-fc8bb718c849")
+		)
+		(pin "3V3" input
+			(at 74.93 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2e5b67d-0681-474e-a26a-3c9cdda21a7e")
+		)
+		(pin "SCL" input
+			(at 88.9 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "612bc86f-f305-402e-a107-8a33e089ff1f")
+		)
+		(pin "SDA" bidirectional
+			(at 91.44 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d54dfc0-0f41-437f-b11c-6cbc7873e01b")
+		)
+		(pin "I2S_IN_L" output
+			(at 99.06 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bef6e25d-7227-4638-8272-591c8db94f7a")
+		)
+		(pin "GND" input
+			(at 69.85 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7024ae8d-84b7-4718-8f1b-614654770b04")
+		)
+		(pin "5V" input
+			(at 72.39 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f450bf9-ff90-4013-b017-1ccb6a317cd9")
+		)
+		(instances
+			(project "Helmute_PCBs"
+				(path "/35ee2b6a-12f6-4ad6-939d-22dc251f11ba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.175 118.11)
+		(size 16.51 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9818ca3-dcf9-4eda-93fb-dccaa67175dd")
+		(property "Sheetname" "RightSpeakerAndMic"
+			(at 130.175 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speakermic.kicad_sch"
+			(at 130.175 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Helmute_PCBs"
+				(path "/35ee2b6a-12f6-4ad6-939d-22dc251f11ba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
